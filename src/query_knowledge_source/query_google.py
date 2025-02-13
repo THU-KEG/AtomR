@@ -198,26 +198,3 @@ def execute_web_query(query, serpapi_key, k):
         
     return clean_title_list, full_results
 
-
-""" Debug """
-
-if __name__ == "__main__":  # 记得科学上网
-    serpapi_key = "42ba37659d4119f60b76efc5af3784bfea1363588cf89e10c11b9072d8e1354a"
-    k = 3
-    query = "How many games did Boston Celtics win in 2022?"
-    # query = "Who is the 1993 World Champion figure skater?"
-    # query = "British-Irish girl groups"
-    
-    clean_title_list, full_results = execute_web_query(query, serpapi_key, k)
-    print("full_results:", full_results)
-    
-    # content = parse_wikipedia_article("https://en.wikipedia.org/wiki/1993_World_Figure_Skating_Championships")
-    # print(content)
-    
-    # 403 Client Error
-    # content = parse_other_article("https://www.volcanodiscovery.com/earthquakes/quake-info/9581069/mag1quake-Aug-31-2024-Sulawesi-Indonesia.html")
-    
-    # content = parse_other_article("https://www.britannica.com/science/atom")
-    # content = parse_other_article("https://sankan.kunaicho.go.jp/english/guide/koukyo.html")
-    # print(content)
-    
