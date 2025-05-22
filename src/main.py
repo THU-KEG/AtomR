@@ -80,8 +80,6 @@ def print_results(em, cover_em, f1, num_total_entries, num_tree_parsing_failures
 
 def build_reasoning_tree(dataset_name, q, q_index, reasoner: GlobalReasoner):
     prompt = tree_generation_prompts[dataset_name](q)
-    print(prompt)
-    exit()
     llm_response, finish_reason = reasoner.openai_caller.query_gpt4o(prompt=prompt, max_tokens=512)
     if finish_reason == "length":  # if tree output too long, rerun with longer max_tokens
         llm_response, finish_reason = reasoner.openai_caller.query_gpt4o(prompt=prompt, max_tokens=768)
