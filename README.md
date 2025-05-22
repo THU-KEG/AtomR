@@ -8,6 +8,8 @@
 
 <p align="justify">
 
+This repository contains the code and data of the [KDD 2025] Paper ***AtomR: Atomic Operator-Empowered Large Language Models for Heterogeneous Knowledge Reasoning***.
+
 We introduce <b>AtomR</b>, a framework for LLMs to conduct accurate heterogeneous knowledge reasoning at the <i>atomic</i> level. Inspired by how knowledge graph query languages model compositional reasoning through combining predefined operations, we propose three <i>atomic knowledge operators</i>, a unified set of operators for LLMs to retrieve and manipulate knowledge from heterogeneous sources. First, in the reasoning planning stage, AtomR decomposes a complex question into a reasoning tree where each leaf node corresponds to an atomic knowledge operator, achieving question decomposition that is highly fine-grained and orthogonal. Subsequently, in the reasoning execution stage, AtomR executes each atomic knowledge operator, which flexibly selects, retrieves, and operates atomic level knowledge from heterogeneous sources. We also introduce <b>BlendQA</b>, a challenging benchmark specially tailored for heterogeneous knowledge reasoning. Experiments on three single-source and two multi-source datasets show that AtomR outperforms state-of-the-art baselines by a large margin, with F1 score improvements of 9.4% on 2WikiMultihop and 9.5% on BlendQA.
 
 - 📖 Paper: [Atomic Operator-Empowered Large Language Models for Heterogeneous Knowledge Reasoning](https://arxiv.org/abs/2411.16495)
