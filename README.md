@@ -4,6 +4,7 @@
     <a href="https://arxiv.org/abs/2411.16495"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
     <a href="https://huggingface.co/datasets/THU-KEG/BlendQA"><img alt="Datasets" src="https://img.shields.io/badge/🤗HuggingFace-Datasets-green"></a>
     <a href="https://github.com/THU-KEG"><img src="https://img.shields.io/badge/THU-KEG_Group-blueviolet"></a>
+    <a href="https://doi.org/10.5281/zenodo.15528472"><img src="https://zenodo.org/badge/893812822.svg" alt="DOI"></a>
 </p>
 
 <p align="justify">
